@@ -1,0 +1,118 @@
+*{
+    background: #a7a4a4;
+}
+header .menu{
+    margin:30px 0;
+    display:flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+header .menu a:hover{
+    text-decoration: underline;
+}
+header .menu a{
+    font-size:18px;
+    font-family: 'lato';
+    font-weight: 300;
+    display: inline-block;
+    padding:10px 0;
+    margin:0 15px;
+    color:#fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width:760px){
+    header .menu{
+        justify-content: center;
+    }
+}
+
+main h3 {
+    color: #03045E;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+main .ilustracion {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3%;
+    width: 40%;
+}
+
+/* estilos.css */
+.titulo {
+    color: #9b0303;
+    text-align: center;
+    font-family: monospace;
+    font-size: 28px;
+    
+}
+
+main h2{
+    color: #0077B6;
+    text-align: center;
+    font-family: monospace;
+    font-size: 28px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.parrafo {
+    font-family: monospace;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.nombre {
+    color: #CC3333;
+    font-size: 23px;
+}
+
+.subtitulo {
+    color: #0b1a0b;
+    text-decoration: underline;
+    font-size: 23px;
+}
+
+.lista li{
+    list-style-type: circle;
+    position: relative;
+    margin-top: 1em;
+    margin-left: 22px;
+    margin-right: 14px;
+    
+}
+
+.texto-resalto{
+    color: rgb(151, 1, 1);
+    font-size: 20px;
+    font-family: monospace;
+    
+}
+
+.lista p{
+    font-family: monospace;
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 37px;    
+}
+
+.imagen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+.img-consecuencia {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3%;
+    width: 30%;
+}

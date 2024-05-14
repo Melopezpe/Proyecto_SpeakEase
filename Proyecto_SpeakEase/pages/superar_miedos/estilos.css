@@ -1,0 +1,312 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    font-family:'lato';
+    font-size: 16px;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+}
+
+header{
+    background-image: url('./img-miedos/principal.jpg');
+    height:600px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: cover;
+}
+header .menu{
+    margin:30px 0;
+    display:flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+header .menu a:hover{
+    text-decoration: underline;
+}
+header .menu a{
+    font-size:18px;
+    font-family: 'lato';
+    font-weight: 300;
+    display: inline-block;
+    padding:10px 0;
+    margin:0 15px;
+    color: #011747;
+    text-decoration: none;
+}
+.action-header:hover{
+    background: #aec9da;
+    color: #011747;
+    border-radius: 5px;
+}
+
+header .contenido-header{
+    margin:120px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+header .contenido-header .titulo-header{
+    font-size: 80px;
+    text-align: center;
+    color: #011747;
+}
+
+header .contenido-header .linea-header{
+    width: 700px;
+    margin: auto;
+    height:2px;
+    background: #15a4fa;
+    margin-bottom:30px;
+    text-align: center;
+}
+
+
+main .informe{
+    background: #f0f3f5;
+    padding:60px 0;
+}
+
+main .informe .informe-titulo{
+    color:#000;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+main .informe .factores{
+    color:#000;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom:20px;
+    padding: 20px;
+}
+
+main .informe p{
+    font-size: 20px;
+} 
+
+main .informe .texto{
+    color:#000;
+    font-size: 20px;
+} 
+
+main .informe .tecnicas{
+    color:#033450;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom:20px;
+    padding: 20px;
+}
+.lista li{
+    list-style-type: decimal;
+    position: relative;
+    margin-top: 1em;
+    margin-left: 22px;
+    margin-right: 14px;
+    
+}
+
+.texto-resalto{
+    color: rgb(151, 1, 1);
+    font-size: 20px;
+    
+}
+
+main .informe li{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom:10px;
+   
+} 
+
+main .informe .informe-parrafo{
+    text-align: center;
+    color:#999999;
+    font-weight: 600;
+}
+
+main .quehacemos{
+    margin:60px 0;  
+}
+main .principal-titulo{
+    color:#000;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom:20px;
+    padding: 10px;
+}
+
+main .contenido-cajas{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main .quehacemos .contenido-cajas .tarjeta{
+    width: 30%;
+    text-align: center;
+}
+
+main .quehacemos .contenido-cajas .tarjeta .contenido-tarjeta .titulo-tarjeta{
+    margin:10px 0;   
+}
+
+footer .contacto{
+    height:300px;
+    background-image: url(./img-miedos/footer.png);
+    background-position:center;
+    padding:60px 0;
+} 
+
+footer .footer-textos{
+    text-align: center;
+    color: #fff;
+    font-size:25px;
+}
+
+footer .footer-textos p{
+    font-size: 14px;
+    margin:15px 0 20px 0;
+    color: #999999;
+}
+
+.footer{
+    height:100px;
+    background: #000;
+}
+
+.footer__contact {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+.footer__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--color);
+}
+
+.footer__item:nth-of-type(1) {
+    --color: #3d4042;
+}
+
+.footer__item:nth-of-type(2) {
+    --color: #c32aa3;
+}
+
+.footer__item:nth-of-type(3) {
+    --color: #1da1f2;
+}
+
+.footer__img {
+    width: 28px;
+}
+@media (min-width:768px) {
+
+    .footer {
+        text-align: center;
+    }
+
+    }
+
+.footer__contact {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+.footer__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--color);
+}
+
+.footer__item:nth-of-type(1) {
+    --color: #3d4042;
+}
+
+.footer__item:nth-of-type(2) {
+    --color: #c32aa3;
+}
+
+.footer__item:nth-of-type(3) {
+    --color: #1da1f2;
+}
+
+.footer__img {
+    width: 28px;
+}
+@media (min-width:768px) {
+
+    .footer {
+        text-align: center;
+    }
+
+    }
+
+@media screen and (max-width:760px){
+    header .menu{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:630px){
+    header .contenido-header .titulo-header{
+        font-size:50px;
+        margin: 20px;
+        padding: 10px;
+       
+    }
+    header .contenido-header .linea-header{
+        width: 400px;
+    }
+   
+}
+
+@media screen and (max-width: 500px){
+    header .contenido-header .titulo-header{
+        font-size:40px;
+       
+        
+    }
+    main .quehacemos .contenido-cajas .tarjeta{
+       width: 48%;
+    }
+    main .contenido-cajas{
+        justify-content: center
+    }
+    main .quehacemos .contenido-cajas .tarjeta{
+        margin:20px 0;
+    }
+}
+
+@media screen and (max-width: 350px){
+    main .quehacemos .contenido-cajas .tarjeta{
+        width: 98%;
+    }
+}
